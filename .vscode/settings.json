@@ -1,0 +1,18 @@
+{
+    "java.project.sourcePaths": [
+        "src/Main",
+        "src/Browser",
+        "src"
+    ],
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "Main/lib/javafx.base.jar",
+        "Main/lib/javafx.controls.jar",
+        "Main/lib/javafx.fxml.jar",
+        "Main/lib/javafx.graphics.jar",
+        "Main/lib/javafx.media.jar",
+        "Main/lib/javafx.swing.jar",
+        "Main/lib/javafx.web.jar",
+        "Main/lib/jsoup-1.13.1.jar"
+    ]
+}

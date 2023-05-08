@@ -1,0 +1,51 @@
+#theme{
+    -fx-background-color:rgb(29, 23, 23);
+    -fx-text-fill: white;
+
+}
+
+#Customizebut{
+    -fx-border:dashed;
+    -fx-background-color:rgb(143, 137, 137);
+    -fx-text-fill:rgb(255, 255, 255);
+    -fx-focus-color:null;
+
+}
+
+.label , #l ,#dl , #l1, #l2{
+    -fx-font-size:20px;
+    -fx-font-weight: 700;
+    -fx-font-family: sans-serif;
+    -fx-background-color: transparent;
+}
+
+#dl{
+    -fx-font-color:rgb(77, 70, 70);
+}
+.list-cell:filled:selected:focused, .list-cell:filled:selected {
+    -fx-background-color: linear-gradient(#328BDB 0%, #207BCF 25%, #1973C9 75%, #0A65BF 100%);
+    -fx-text-fill: white;
+}
+
+.list-cell:odd {
+    -fx-cell-hover-color: #0093ff;
+    -fx-background-color: white;
+}
+
+#options:filled:hover {
+    -fx-cell-hover-color: #0093ff;
+    -fx-text-fill: white;
+}
+
+.button{
+    -fx-background-color: rgb(22, 22, 32);
+    -fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-family: "Arial";
+    -fx-text-fill: linear-gradient(white, #d0d0d0);
+    -fx-font-size: 12px;
+    -fx-padding: 10 20 10 20;
+}
+

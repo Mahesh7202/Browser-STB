@@ -1,0 +1,1 @@
+java --module-path %cd%/lib/javafx-sdk-17/lib --add-modules javafx.controls,javafx.web,javafx.fxml -jar STB.jar

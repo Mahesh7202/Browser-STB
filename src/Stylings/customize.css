@@ -1,0 +1,19 @@
+#customize , #searchbut{
+    -fx-padding:5;
+    -fx-min-width: 30px; 
+    -fx-min-height: 30px;
+    -fx-max-width: 30px;
+    -fx-max-height: 30px;
+    -fx-scale-x:1;
+    -fx-scale-y:1;
+    -fx-background-color:black;
+
+}
+
+.button{
+    -fx-focus-color:rgb(25, 94, 223);
+    -fx-background-color:transparent;
+   
+    -fx-scale-x:2;
+    -fx-scale-y:2;
+}
